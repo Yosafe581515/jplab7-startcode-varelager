@@ -7,6 +7,8 @@ public class VareMetode {
 		System.out.println(T1.toString());
 		System.out.println("\n");
 		
+		Vare T2=new Vare();
+		System.out.println(T2.toString());
 		int a=5;
 		
 		Varelager S1=new Varelager(a);

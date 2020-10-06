@@ -6,6 +6,10 @@ public class Vare {
 	private String navn;
 	private double pris;
 	
+	public Vare() {
+		
+	}
+	
 	public Vare(int varenr, String navn, double pris) {
 		this.varenr=varenr;
 		this.navn=navn;
