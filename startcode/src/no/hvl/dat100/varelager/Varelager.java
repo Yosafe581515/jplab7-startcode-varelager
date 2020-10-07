@@ -51,7 +51,7 @@ public class Varelager {
 		return v;
 	}
 	
-	private String SEP = "=============================================";
+	private String SEP = "==========================================";
 	
 	public void printVarelager() {
 				

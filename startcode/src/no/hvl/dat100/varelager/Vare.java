@@ -48,7 +48,7 @@ public class Vare {
 	
 	public String toString() {
 		
-		return "Vare [varenr= "+varenr+", navn= "+navn+", pris= "+pris+"]";
+		return "Vare [varenr="+varenr+", navn="+navn+", pris="+pris+"]";
 	}
 	
 	public boolean erBilligereEnn(Vare v) {

@@ -15,24 +15,24 @@ public class VareMetode {
 		skriveUtTab(S1.varer);
 		skriveUtTab(S1.getVarer());
 		
-		Vare v=new Vare(10, "caroot" , 30);
+		Vare v=new Vare(7, "caroot" , 30);
 		System.out.println(S1.leggTilVare(v));
 		skriveUtTab(S1.varer);
-		Vare w=new Vare(11, "bananas" , 50);
+		Vare w=new Vare(9, "bananas" , 50);
 		System.out.println(S1.leggTilVare(w));
 		skriveUtTab(S1.varer);
-		Vare x=new Vare(12, "apples" , 80);
+		Vare x=new Vare(13, "apples" , 80);
 		System.out.println(S1.leggTilVare(x));
 		skriveUtTab(S1.varer);
-		Vare y=new Vare(13, "orange" , 120);
+		Vare y=new Vare(16, "orange" , 120);
 		System.out.println(S1.leggTilVare(y));
 		skriveUtTab(S1.varer);
 		
-		S1.leggTil(14, "druer", 170);
+		S1.leggTil(17, "druer", 170);
 		skriveUtTab(S1.varer);
 		
-		S1.finnVare(10);
-		System.out.println(S1.finnVare(14));
+		System.out.println(S1.finnVare(17));
+		System.out.println((S1.finnVare(17)).toString());
 		
 		S1.printVarelager();
 		
@@ -40,10 +40,10 @@ public class VareMetode {
 		
 		VarelagerUtils S2=new VarelagerUtils();
 		Vare zVarer=S2.finnBilligste(S1.varer);
-		System.out.println(zVarer.toString());
+		System.out.println(zVarer.toString()+"\n");
 		
 		double totalVarer=S2.totalPris(S1.varer);
-		System.out.println(totalVarer);
+		System.out.println("totalVarer= "+totalVarer+"\n");
 		
 		int [] varerTabelen=S2.finnVarenr(S1.varer);
 		skriveUtTabInt(varerTabelen);
